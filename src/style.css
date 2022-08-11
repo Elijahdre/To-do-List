@@ -41,6 +41,10 @@ img {
   height: 1rem;
 }
 
+.decoration {
+  font-style: italic;
+}
+
 .task-text {
   border: none;
   font-style: italic;
@@ -49,6 +53,13 @@ img {
 
 .task-text:focus {
   outline: none;
+}
+
+.add-task {
+  border: none;
+  font-size: 1rem;
+  width: 80%;
+  letter-spacing: 1px;
 }
 
 .clear {
@@ -68,4 +79,8 @@ img {
 
 .task-name {
   padding: 0 1rem;
+}
+
+.line {
+  text-decoration: line-through;
 }
