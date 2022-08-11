@@ -21,7 +21,7 @@ h1 {
 .to-do-container {
   width: 400px;
   background-color: white;
-  box-shadow: 0 4px 8px 0 #c9c9c930, 0 6px 20px 0 #c9c9c930;
+  box-shadow: 0 5px 8px 0 #c9c9c930, 0 6px 20px 0 #c9c9c930;
 }
 
 .task-container {
