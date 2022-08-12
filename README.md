@@ -11,7 +11,9 @@
 ## Built With
 
 - HTML and CSS 
-- Javascript
+- Javascript ES6
+- Webpack
+- HtmlWebpackPlugin
 
 ## How to use and run this project
 >To get a local copy up and running follow these simple example steps.
