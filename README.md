@@ -63,5 +63,7 @@ https://github.com/Elijahdre/To-do-List/issues
 Give a ⭐️ if you like this project!
 
 ## Acknowledgments
+- [To-Do List Requirements](https://github.com/microverseinc/curriculum-javascript/blob/main/todo-list/sneak_peek.md)
+- [Project Template](https://web.archive.org/web/20180320194056/http://www.getminimalist.com:80/)
 
 Thanks to everyone who helped me.

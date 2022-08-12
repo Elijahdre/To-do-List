@@ -1,29 +1,27 @@
-const TASK = [
-  {
-    index: 1,
-    description: 'Clean the room',
-    completed: false,
-  },
-  {
-    index: 2,
-    description: 'Make the bed',
-    completed: false,
-  },
-  {
-    index: 3,
-    description: 'Do the dishes',
-    completed: false,
-  },
-  {
-    index: 4,
-    description: 'Clean the closet',
-    completed: false,
-  },
-  {
-    index: 5,
-    description: 'Take out the trash',
-    completed: false,
-  },
-];
+class TASK {
+  constructor() {
+    this.taskList = [];
+  }
+
+  static fetch() {
+    return JSON.parse(localStorage.getItem('task')) || [];
+  }
+
+  static updateStorage(updatedTask) {
+    localStorage.setItem('task', JSON.stringify(updatedTask));
+  }
+
+  add(task) {
+    this.taskList = TASK.fetch();
+    this.taskList.push(task);
+    TASK.updateStorage(this.taskList);
+  }
+
+  updateIndex() {
+    this.taskList.forEach((item, id) => {
+      item.index = id + 1;
+    });
+  }
+}
 
 export default TASK;
