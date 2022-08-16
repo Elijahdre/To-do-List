@@ -10,7 +10,7 @@
 
 ## Built With
 
-- HTML and CSS 
+- HTML5 and CSS3 
 - Javascript ES6
 - Webpack
 - HtmlWebpackPlugin
