@@ -10,7 +10,7 @@
 
 ## Built With
 
-- HTML and CSS 
+- HTML5 and CSS3 
 - Javascript ES6
 - Webpack
 - HtmlWebpackPlugin
@@ -43,7 +43,7 @@ This project is still under development.
 
 ## Live Demo link
 
- https://elijahdre.github.io/To-do-List/
+ https://elijahdre.github.io/To-do-List/dist/
 
 ## Issues
 
