@@ -43,7 +43,7 @@ This project is still under development.
 
 ## Live Demo link
 
- https://elijahdre.github.io/To-do-List/
+ https://elijahdre.github.io/To-do-List/dist/
 
 ## Issues
 
