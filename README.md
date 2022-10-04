@@ -1,71 +1,100 @@
-
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# To-do-list-app
+# Todo-List app
 
 > The to do list app is the app that helps people to track what they have to do in a day. With this app,
   you can add a new activity with description, remove it and also check it if it is completed.
   There is a lot more of what someone can do with it.
 
-
 ## Built With
 
-- HTML5 and CSS3 
-- Javascript ES6
-- Webpack
-- HtmlWebpackPlugin
+- [x] Languages: HTML, CSS and JavaScript
+- [x] Linters: Lighthouse, Webhint, Stylelint and ESlint
+- [x] Module Bundler: Webpack
+- [x] Module Bundler Loaders: Style, CSS 
+- [x] Module Bundler Plugin: HtmlWebpackPlugin
+- [x] Code Editor: VS Code
 
-## How to use and run this project
->To get a local copy up and running follow these simple example steps.
 
--Clone this repository with
+## Website Mockup 📱 💻 🖥️
+![all-devices-black](app_screenshot.png)
 
-<code> git clone git@github.com:Elijahdre/To-do-List.git </code>
-using your terminal or command line.
+## Live Demo 🔗
 
--Change to the project directory by entering :
+Check out the live demo [here](https://elijahdre.github.io/To-do-List/dist/)👈
 
-<code>cd To-do-list</code>, in the terminal.
+## Getting Started
 
--run code to open it in vscode.
-However, there are some project requisites required for this project to run properly 
+To get a local copy up and running follow these simple steps.
+
 ### Prerequisites
-- This project makes use of bundler called 'Webpack' which manages all the dependencies and files for this project.
-- To install it, follow this:
-- Locate to the directory of the project
-- In the terminal, <code>npm init -y</code> to initialise the package manager
-- Again, in the terminal, <code> npm install </code> to install everything.
 
+- [x] A web browser like Google Chrome.
+- [x] A code editor like Visual Studio Code with Git and Node.js.
 
-## Project Status
-This project is still under development.
+You can check if Git is installed by running the following command in the terminal.
+```
+$ git --version
+```
 
+Likewise for Node.js and npm for package installation.
+```
+$ node --version && npm --version
+```
 
-## Live Demo link
+### Setup
 
- https://elijahdre.github.io/To-do-List/dist/
+Clone the repository using the GitHub link provided below.
 
-## Issues
+### Install
 
-Up to now, there are no issues with it.
+In the terminal, go to your file directory and run this command.
 
-Here is the link to the Issues tab:
+```
+$ git clone git@github.com:Elijahdre/To-do-List.git
+```
 
-https://github.com/Elijahdre/To-do-List/issues
+### Usage
+
+Kindly modify the files as needed.
+
+### Run tests
+
+To check for linters, use the files provided by [Microverse](https://github.com/microverseinc/linters-config). A GitHub action is also set to run during pull request.
+```
+$ npm install
+```
+
+### Deployment
+
+This app is deployed in the GitHub Pages for easy viewing upon merged on the main branch.
+Please find the link in the Live Demo section.l
 
 ## Authors
 
-👤 Elijah Andre
+👤 **Elijah Odjegba** <img src="https://emojis.slackmojis.com/emojis/images/1531849430/4246/blob-sunglasses.gif?1531849430" width="20"/>
 
-- GitHub: [@elijahdre](https://github.com/Elijahdre)
-- LinkedIn: [Elijah Odjegba](https://www.linkedin.com/in/elijah-odjegba-862708179/)
+  - GitHub: [![GitHub Badge](https://img.shields.io/badge/-Elijahdre-white?logo=GitHub&logoColor=181717&style=plastic)](https://github.com/Elijahdre)
+  - Twitter: [![Twitter Badge](https://img.shields.io/badge/-kingglijah-white?logo=Twitter&logoColor=1DA1F2&style=plastic)](https://twitter.com/kingglijah)
+  - LinkedIn: [![LinkedIn Badge](https://img.shields.io/badge/-Elijah--Odjegba-white?logo=LinkedIn&logoColor=0A66C2&style=plastic)](https://www.linkedin.com/in/elijah-odjegba-862708179/)
+
+
+## 🤝 Contributing
+
+Contributions, issues, and feature requests are welcome!
+
+Feel free to check the [issues page.](https://github.com/Elijahdre/To-do-List/issues)
 
 ## Show your support
 
 Give a ⭐️ if you like this project!
 
 ## Acknowledgments
-- [To-Do List Requirements](https://github.com/microverseinc/curriculum-javascript/blob/main/todo-list/sneak_peek.md)
-- [Project Template](https://web.archive.org/web/20180320194056/http://www.getminimalist.com:80/)
 
-Thanks to everyone who helped me.
+- [Microverse](https://www.microverse.org/)
+- Code Reviewers
+- Coding Partners
+
+## 📝 License
+
+This project is [MIT](./MIT.md) licensed

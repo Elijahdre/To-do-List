@@ -49,6 +49,7 @@ img {
   border: none;
   font-style: italic;
   font-size: 1rem;
+  cursor: pointer;
 }
 
 .task-text:focus {
@@ -70,15 +71,11 @@ img {
 }
 
 .checkbox {
-  height: 1rem;
-  width: 1rem;
+  height: 1.3rem;
+  width: 1.4rem;
   border: 2px solid #ccc;
   border-radius: 3px;
   background-color: white;
-}
-
-.task-name {
-  padding: 0 1rem;
 }
 
 .line {
@@ -91,8 +88,11 @@ img {
 
 .completed {
   background-image: url("/src/icons/check.png");
-  width: 20px;
+  width: 1.4rem;
   background-repeat: no-repeat;
-  height: 20px;
-  border: none;
+  height: 1.4rem;
+}
+
+.clear-all {
+  cursor: pointer;
 }
