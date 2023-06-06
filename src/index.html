@@ -4,11 +4,15 @@
 <head>
    <meta charset="UTF-8">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+    />
    <link rel="stylesheet" href="../src/style.css">
    <title>To Do List</title>
 </head>
 
-<body>
+<!-- <body>
    <div class="main-parent">
       <div class="parent-container">
          <h1>To Do List!</h1>
@@ -30,8 +34,40 @@
          </div>
       </div>
    </div>
-</body>
+</body> -->
 
+
+
+<body>
+   <section class="section-center">
+     <!-- form -->
+     <form class="grocery-form">
+       <p class="alert"></p>
+       <h3>To Do List!</h3>
+       <div class="form-control">
+         <input type="text" id="grocery" placeholder="e.g. Exercise" />
+         <button type="submit" class="submit-btn">submit</button>
+       </div>
+     </form>
+     <!-- list -->
+     <div class="grocery-container">
+       <div class="grocery-list">
+         <article class="grocery-item">
+            <p class="title">item</p>
+            <div class="btn-container">
+               <button type="button" class="edit-btn">
+                  <i class="fas fa-edit"></i>
+               </button>
+               <button type="button" class="delete-btn">
+                  <i class="fas fa-trash"></i>
+               </button>
+            </div>
+         </article>
+       </div>
+       <button type="button" class="clear-btn">clear tasks</button>
+     </div>
+   </section>
+ </body>
 </html>
 
 
