@@ -4,34 +4,33 @@
 <head>
    <meta charset="UTF-8">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+    />
    <link rel="stylesheet" href="57011448dc08b9372b5e.css">
    <title>To Do List</title>
 <script defer src="main.js"></script></head>
-
 <body>
-   <div class="main-parent">
-      <div class="parent-container">
-         <h1>To Do List!</h1>
-         <div class="to-do-container">
-            <ul class="task-container">
-               <li class="title">
-                  <span></span>
-                  <span><input readonly type="text" class="task-text title-text" id="title-text" value="Today's To Do"></span>
-                  <span><img src="efde49d9123c12eab9a4.png" alt="Refresh Icon" id="refresh" /></span>
-               </li>
-               <li class="input-field">
-                  <span><input type="text" placeholder="Add to your list..." class="task-text decoration" id="add-task"></span>
-                  <span><img src="e9b3beb735825e3fc050.png" alt="Return Icon" id="return" /></span>
-               </li>
-               <li class="clear">
-                  <span class="clear-all">Clear all completed</span>
-               </li>
-            </ul>
-         </div>
-      </div>
-   </div>
-</body>
-
+   <section class="section-center">
+     <!-- form -->
+     <form class="grocery-form">
+       <p class="alert"></p>
+       <h3>To Do List!</h3>
+       <div class="form-control">
+         <input type="text" id="grocery" placeholder="e.g. Exercise" />
+         <button type="submit" class="submit-btn">submit</button>
+       </div>
+     </form>
+     <!-- list -->
+     <div class="grocery-container">
+       <div class="grocery-list">
+   
+       </div>
+       <button type="button" class="clear-btn">clear tasks</button>
+     </div>
+   </section>
+ </body>
 </html>
 
 
